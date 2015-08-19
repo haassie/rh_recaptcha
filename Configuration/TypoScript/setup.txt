@@ -17,5 +17,3 @@ plugin.tx_powermail {
     _LOCAL_LANG.default.validationerror_validation.115 = We can not validate you as a person
     _LOCAL_LANG.nl.validationerror_validation.115 = Wij kunnen u niet valideren als een echt persoon
 }
-
-page.includeJSFooter.powermailextended = EXT:powermailextended/Resources/Public/JavaScripts/ZipValidation.js
