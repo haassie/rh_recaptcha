@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-06-25T17:55:17Z" product-name="rh_recaptcha">
+		<header/>
+		<body>
+			<trans-unit id="validation.possible_robot">
+				<source>Possible robot detected!</source>
+			</trans-unit>
+			<trans-unit id="error.no_secretKey">
+				<source>No secretKey set in TypoScript!</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

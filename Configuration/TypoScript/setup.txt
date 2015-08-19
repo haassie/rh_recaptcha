@@ -1,0 +1,21 @@
+plugin.tx_powermail {
+    view {
+        partialRootPath >
+        partialRootPaths.10 = EXT:powermail/Resources/Private/Partials/
+        partialRootPaths.rh_recaptcha = EXT:rh_recaptcha/Resources/Private/Partials/
+    }
+
+    settings {
+        setup {
+            reCAPTCHA {
+                siteKey = {$plugin.tx_powermail.settings.reCAPTCHA.siteKey}
+                secretKey = {$plugin.tx_powermail.settings.reCAPTCHA.secretKey}
+            }
+        }
+    }
+
+    _LOCAL_LANG.default.validationerror_validation.115 = We can not validate you as a person
+    _LOCAL_LANG.nl.validationerror_validation.115 = Wij kunnen u niet valideren als een echt persoon
+}
+
+page.includeJSFooter.powermailextended = EXT:powermailextended/Resources/Public/JavaScripts/ZipValidation.js

@@ -1,0 +1,15 @@
+{namespace rh=RH\RhRecaptcha\ViewHelpers}
+{namespace vh=In2code\Powermail\ViewHelpers}
+
+<rh:reCaptcha>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+	<f:form.hidden
+			id="powermail_field_{field.marker}"
+			property="{field.marker}"
+			value="valid"
+			class="powermail_field powermail_hidden {field.css}" />
+
+
+	<div class="g-recaptcha" data-sitekey="{siteKey}"></div>
+</rh:reCaptcha>

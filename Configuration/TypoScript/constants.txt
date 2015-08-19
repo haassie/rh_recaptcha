@@ -1,0 +1,2 @@
+plugin.tx_powermail.settings.reCAPTCHA.siteKey =
+plugin.tx_powermail.settings.reCAPTCHA.secretKey =
