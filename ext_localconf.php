@@ -5,7 +5,7 @@ tx_powermail.flexForm.type.addFieldOptions.recaptcha = reCAPTCHA
 
 
 $signalSlotDispatcher->connect(
-	In2code\Powermail\Domain\Validator\CustomValidator::class,
+	'In2code\Powermail\Domain\Validator\CustomValidator',
 	'isValid',
 	'RH\RhRecaptcha\Domain\Validator\ReCaptchaValidator',
 	'isValid',
