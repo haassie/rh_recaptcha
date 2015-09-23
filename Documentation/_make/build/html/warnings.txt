@@ -1,0 +1,8 @@
+WARNING: 'default' html theme has been renamed to 'classic'. Please change your html_theme setting either to the new 'alabaster' default theme, or to 'classic' to keep using the old default.
+/var/www/6.2.14.local.typo3.org/fileadmin/rh_recaptcha/Localization.de_DE.tmpl/Index.rst:13: WARNING: duplicate label start, other instance in /var/www/6.2.14.local.typo3.org/fileadmin/rh_recaptcha/Index.rst
+/var/www/6.2.14.local.typo3.org/fileadmin/rh_recaptcha/Localization.fr_FR.tmpl/Index.rst:13: WARNING: duplicate label start, other instance in /var/www/6.2.14.local.typo3.org/fileadmin/rh_recaptcha/Localization.de_DE.tmpl/Index.rst
+/var/www/6.2.14.local.typo3.org/fileadmin/rh_recaptcha/Localization.de_DE.tmpl/Index.rst:: WARNING: document isn't included in any toctree
+/var/www/6.2.14.local.typo3.org/fileadmin/rh_recaptcha/Localization.fr_FR.tmpl/Index.rst:: WARNING: document isn't included in any toctree
+/var/www/6.2.14.local.typo3.org/fileadmin/rh_recaptcha/UsersManual/Index.rst:38: WARNING: undefined label: t3editors:start (if the link has no caption the label must precede a section header)
+/var/www/6.2.14.local.typo3.org/fileadmin/rh_recaptcha/UsersManual/Index.rst:39: WARNING: undefined label: t3start:start (if the link has no caption the label must precede a section header)
+/var/www/6.2.14.local.typo3.org/fileadmin/rh_recaptcha/UsersManual/Index.rst:41: WARNING: undefined label: t3tsref:condition-browser (if the link has no caption the label must precede a section header)
