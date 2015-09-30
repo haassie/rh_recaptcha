@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="nl" datatype="plaintext" original="messages" date="2015-06-25T17:55:17Z" product-name="rh_recaptcha">
+	<file source-language="en" target-language="nl" datatype="plaintext" original="messages" date="2015-06-25T17:55:17Z" product-name="rh_recaptcha">
 		<header/>
 		<body>
 			<trans-unit id="validation.possible_robot">
-				<source>Mogelijke spammer gedetecteerd!</source>
+				<target>Mogelijke spammer gedetecteerd!</target>
 			</trans-unit>
 		</body>
 	</file>
