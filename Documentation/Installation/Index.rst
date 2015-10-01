@@ -58,11 +58,11 @@ After these settings are done, you can add the reCAPTCHA field to your form. See
 Translation
 """""""""""
 
-If you want to add your own translations, you can do this by adding them via Typoscript. You can use the following Typoscript to override the default translations:
+If you want to add your own translations, you can do this by adding them via TypoScript. You can use the following TypoScript to override the default translations:
 
 ::
 
-  plugin.tx_rh_recaptcha._LOCAL_LANG.de {
+  plugin.tx_rhrecaptcha._LOCAL_LANG.de {
     validation {
       possible_robot = My new text
     }

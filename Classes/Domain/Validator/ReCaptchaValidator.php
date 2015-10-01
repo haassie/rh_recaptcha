@@ -74,10 +74,10 @@ class ReCaptchaValidator {
 						//execute post
 						$result = json_decode(curl_exec($ch));
 						if (!(bool)$result->success) {
-							$object->setErrorAndMessage($field, LocalizationUtility::translate('validation.possible_robot', 'rh_recaptcha'));
+							$object->setErrorAndMessage($field, LocalizationUtility::translate('validation.possible_robot', 'rhrecaptcha'));
 						}
 					} else {
-						throw new InvalidVariableException(LocalizationUtility::translate('error.no_secretKey', 'rh_recaptcha'), 1358349150);
+						throw new InvalidVariableException(LocalizationUtility::translate('error.no_secretKey', 'rhrecaptcha'), 1358349150);
 					}
 				}
 			}
