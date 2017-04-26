@@ -1,5 +1,5 @@
 {
-  "name": "rh/recaptcha",
+  "name": "rh/rh_recaptcha",
   "description": "reCAPTCHA for Powermail",
   "type": "typo3-cms-extension",
   "license": "GPL-3.0",
