@@ -11,3 +11,25 @@ $signalSlotDispatcher->connect(
 	'isValid',
 	FALSE
 );
+
+if (defined('\In2code\Powermail\Domain\Model\Form::TABLE_NAME')) {
+    $tableName = \In2code\Powermail\Domain\Model\Form::TABLE_NAME;
+} else {
+    $tableName = 'tx_powermail_domain_model_forms';
+}
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScriptSetup('
+	config.tx_extbase {
+		persistence {
+			classes {
+				RH\RhRecaptcha\Domain\Model\Form {
+					mapping {
+						tableName = ' . $tableName . '
+						columns {
+						}
+					}
+				}
+			}
+		}
+	}
+');

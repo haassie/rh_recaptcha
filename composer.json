@@ -1,0 +1,25 @@
+{
+  "name": "rh/recaptcha",
+  "description": "reCAPTCHA for Powermail",
+  "type": "typo3-cms-extension",
+  "license": "GPL-3.0",
+  "keywords": [
+    "TYPO3 CMS",
+    "reCAPTCHA"
+  ],
+  "authors": [
+    {
+      "name": "Richard Haeser",
+      "email": "richardhaeser@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RH\\RhRecaptcha\\": "Classes/"
+    }
+  },
+  "require": {
+    "typo3/cms-core": ">=7.6.0, <8.7.99",
+    "in2code/powermail": ">=2.0.0, <3.99.99"
+  }
+}

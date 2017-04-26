@@ -2,25 +2,31 @@
 
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'reCAPTCHA',
-	'description' => 'Implements Google reCAPTCHA 2 to Powermail 2',
+	'title' => 'reCAPTCHA for Powermail',
+	'description' => 'Implements Google reCAPTCHA 2 to Powermail 2 and 3',
 	'category' => 'plugin',
 	'author' => 'Richard Haeser',
 	'author_email' => 'richardhaeser@gmail.com',
 	'state' => 'stable',
-	'internal' => '',
 	'uploadfolder' => '0',
 	'createDirs' => '',
 	'clearCacheOnLoad' => 0,
-	'version' => '0.1.1',
-	'constraints' => array(
-		'depends' => array(
-			'typo3' => '6.2.0-7.4.99',
-			'powermail' => '2.0.0-2.99.99',
+	'version' => '1.0.0',
+	'constraints' => 
+	array (
+		'depends' => 
+		array (
+			'typo3' => '7.6.0-8.7.99',
+			'powermail' => '2.0.0-3.99.99',
 		),
-		'conflicts' => array(
+		'conflicts' => 
+		array (
 		),
-		'suggests' => array(
+		'suggests' => 
+		array (
 		),
 	),
+	'clearcacheonload' => false,
+	'author_company' => NULL,
 );
+

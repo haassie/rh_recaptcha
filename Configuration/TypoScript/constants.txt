@@ -1,2 +1,3 @@
 plugin.tx_powermail.settings.reCAPTCHA.siteKey =
 plugin.tx_powermail.settings.reCAPTCHA.secretKey =
+plugin.tx_powermail.settings.reCAPTCHA.lang = en
