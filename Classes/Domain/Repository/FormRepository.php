@@ -34,7 +34,7 @@ class FormRepository extends \In2code\Powermail\Domain\Repository\FormRepository
 		$query->getQuerySettings()->setRespectStoragePage(FALSE)->setRespectSysLanguage(FALSE);
 		$and = [
 			$query->equals('uid', $form->getUid()),
-//			$query->equals('pages.fields.type', 'recaptcha')
+			$query->equals('pages.fields.type', 'recaptcha')
 		];
 		$query->matching($query->logicalAnd($and));
 		return $query->execute();
