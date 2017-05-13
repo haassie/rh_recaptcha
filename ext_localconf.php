@@ -5,11 +5,11 @@ tx_powermail.flexForm.type.addFieldOptions.recaptcha = reCAPTCHA
 
 $signalSlotDispatcher = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Extbase\SignalSlot\Dispatcher::class);
 $signalSlotDispatcher->connect(
-	'In2code\Powermail\Domain\Validator\CustomValidator',
-	'isValid',
-	'RH\RhRecaptcha\Domain\Validator\ReCaptchaValidator',
-	'isValid',
-	FALSE
+    'In2code\Powermail\Domain\Validator\CustomValidator',
+    'isValid',
+    'RH\RhRecaptcha\Domain\Validator\ReCaptchaValidator',
+    'isValid',
+    false
 );
 
 if (defined('\In2code\Powermail\Domain\Model\Form::TABLE_NAME')) {
@@ -38,6 +38,7 @@ if (defined('\In2code\Powermail\Domain\Model\Form::TABLE_NAME')) {
  * Include TypoScript
  */
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
-    $_EXTKEY, 'Configuration/TypoScript',
+    $_EXTKEY,
+    'Configuration/TypoScript',
     'reCAPTCHA'
 );

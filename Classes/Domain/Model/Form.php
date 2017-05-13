@@ -18,5 +18,6 @@ namespace RH\RhRecaptcha\Domain\Model;
 /**
  * FormModel
  */
-class Form extends \In2code\Powermail\Domain\Model\Form {
+class Form extends \In2code\Powermail\Domain\Model\Form
+{
 }
