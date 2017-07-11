@@ -33,12 +33,3 @@ if (defined('\In2code\Powermail\Domain\Model\Form::TABLE_NAME')) {
 		}
 	}
 ');
-
-/**
- * Include TypoScript
- */
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
-    $_EXTKEY,
-    'Configuration/TypoScript',
-    'reCAPTCHA'
-);
